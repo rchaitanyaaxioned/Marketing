@@ -116,7 +116,7 @@ li {
   background: #F1F1F1;
   list-style-type: none;
   padding: 0;
-  margin: 20px 0;
+  margin: 15px 0;
   overflow: hidden;
 }
 
@@ -147,8 +147,56 @@ li {
   main styling starts here
 =================================*/
 
+/*topsection styling starts here*/
+.topsection h2 {
+  font-size: 50px;
+  text-transform: uppercase;
+  margin: 30px 0;
+}
 
+.topsection p {
+  font-size: 20px;
+  margin: 30px 0;
+}
+/*topsection styling end here*/
 
+/*what we offer styling start here*/
+.whatweoffer h3 {
+  font-size: 35px;
+  text-align: center;
+}
+
+#whatweofferid {
+  padding: 20px 0;
+  border-bottom: 8px solid #ccc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.whatweoffer .row {
+  margin: 70px 0;
+}
+
+.whatweoffer .column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px;
+}
+
+.whatweoffer .column > h3 {
+  float: left;
+}
+
+.whatweoffer .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*what we offer styling end here*/
 
 
 
