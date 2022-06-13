@@ -154,7 +154,7 @@ li {
   margin: 30px 0;
 }
 
-.topsection p {
+p {
   font-size: 20px;
   margin: 30px 0;
 }
@@ -175,26 +175,33 @@ li {
   box-sizing: border-box;
 }
 
-.whatweoffer .row {
+.wworow {
   margin: 70px 0;
 }
 
-.whatweoffer .column {
+.wwocolumn {
+  overflow: hidden;
   float: left;
   width: 25%;
-  padding: 10px;
-  height: 300px;
+  padding: 40px 30px;
+  height: 272px;
+  margin: 30px 0px;
 }
 
-.whatweoffer .column > h3 {
+.wwocolumn h3,p {
   float: left;
 }
 
-.whatweoffer .row:after {
+.wworow:after {
   content: "";
   display: table;
   clear: both;
 }
+
+#wwocol1 {background-color: #F1F1F1 ;}
+#wwocol2 {background-color: #BBB;}
+#wwocol3 {background-color: #616161; color: #FFF;}
+#wwocol4 {background-color: #000; color: #FFF;}
 
 /*what we offer styling end here*/
 
