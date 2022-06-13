@@ -202,10 +202,60 @@ p {
 #wwocol2 {background-color: #BBB;}
 #wwocol3 {background-color: #616161; color: #FFF;}
 #wwocol4 {background-color: #000; color: #FFF;}
-
 /*what we offer styling end here*/
 
+/*pricing plans styling start here*/
+* {
+  box-sizing: border-box;
+}
 
+.pricingplansection > #pptitleh3 {
+  text-align: center;
+  font-size: 35px;
+  padding: 20px 0;
+}
+
+#pptitlehp {
+  text-align: center;
+  font-size: 20px;
+  padding: 20px 0;
+  background-color: green;
+}
+
+.ppcolumn {
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+}
+
+.pprow {margin: 70px 0;}
+
+.pprow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.ppcard {
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.ppcard > .ppbtn {
+  background-color: #F1F1F1;
+}
+
+@media screen and (max-width: 600px) {
+  .ppcolumn {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+/*pricing plans styling end here*/
 
 
 
