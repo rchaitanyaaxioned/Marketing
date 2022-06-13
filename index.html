@@ -17,7 +17,7 @@
         <div class="wrapper">
           <!--nav bar start here-->
           <nav>
-            <ul>
+            <ul class="topnav">
               <li><a href="#FIXME" title="Home">Home</a></li>
               <li><a href="#FIXME" title="Plans">Plans</a></li>
               <li><a href="#FIXME" title="About">About</a></li>
@@ -25,6 +25,10 @@
             </ul>
           </nav>
           <!--nav bar end here-->
+          <!--logo and heading start here-->
+          <h1>marketing</h1>
+          <p>Templated by w3.css</p>
+          <!--logo and heading end here-->
         </div>
       </header>
       <!--header section ends-->
@@ -32,10 +36,10 @@
       <main>
         <!--main section start here-->
         <section>
-          <div class="wrapper">
+          <div class="wrapper topsection">
             <h2>marketing</h2>
             <p>Templated by w3.css</p>
-            <div>
+            <div class="topnavfig">
               <figure>
                 <img src="https://via.placeholder.com/992x448" alt="speaker-img">
               </figure>
@@ -49,82 +53,78 @@
         <!--main section end here-->
         <!--what we offer section start here-->
         <section>
-          <div class="wrapper">
-            <h3>What We Offer</h3>
-            <div class="row">
-              <div class="column">
+          <div class="wrapper whatweoffer">
+            <h3><span id="whatweofferid">What We Offer</span></h3>
+            <div class="wworow">
+              <div class="wwocolumn" id="wwocol1">
                 <h3>Design</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa, earum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo deleniti accusamus veritatis?</p>
               </div>
-              <div class="column">
+              <div class="wwocolumn" id="wwocol2">
                 <h3>Branding</h3>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, distinctio.</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam nesciunt hic repellendus.</p>
               </div>
-              <div class="column">
+              <div class="wwocolumn" id="wwocol3">
                 <h3>Consultation</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, totam.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore voluptatem vitae voluptates.</p>
               </div>
-              <div class="column">
+              <div class="wwocolumn" id="wwocol4">
                 <h3>Promises</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, cumque.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque delectus necessitatibus voluptatem.</p>
               </div>
             </div>
           </div>
         </section>
         <!--what we offer section end here-->
         <!--pricing plan section start here-->
-        <section>
+        <section class="pricingplanclass">
           <div class="wrapper">
             <h3>Pricing Plans</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-            <div>
-              <div class="row">
-                <div class="coloumn">
-                  <div class="card">
+            <p>Choose a pricing plan that fits your needs.</p>
+            <div class="pricingitems">
+              <div class="pprow">
+                <div class="ppcolumn">
+                  <div class="ppcard">
                     <ul>
-                      <li><h3>Basic</h3></li>
-                      <li>10GB Storage</li>
-                      <li>10 Emails</li>
-                      <li>10 Domains</li>
-                      <li>Endless Support</li>
-                      <li><h3>&dollar; 10</h3><p>per month</p></li>
-                      <li><button>Sign Up</button></li>
+                      <li class="ppcardheading"><h3>Basic</h3></li>
+                      <li><span class="ppcardbtext">10GB</span> Storage</li>
+                      <li><span class="ppcardbtext">10</span> Emails</li>
+                      <li><span class="ppcardbtext">10</span> Domains</li>
+                      <li><span class="ppcardbtext">Endless</span> Support</li>
+                      <li><h3 class="ppcardtexth3">&dollar; 10</h3><p class="ppcardtextp">per month</p></li>
+                      <li class="ppcardbtn"><span><button>Sign Up</button></span></li>
                     </ul>
                   </div>
                 </div>
-                <div class="coloumn">
-                  <div class="card">
+                <div class="ppcolumn">
+                  <div class="ppcard">
                     <ul>
+                      <li class="ppcardheading2"><h3>Pro</h3></li>
+                      <li><span class="ppcardbtext">25GB</span> Storage</li>
+                      <li><span class="ppcardbtext">25</span> Emails</li>
+                      <li><span class="ppcardbtext">25</span> Domains</li>
+                      <li><span class="ppcardbtext">Endless</span> Support</li>
                       <li>
-                        <h3>Pro</h3>
+                        <h3 class="ppcardtexth3">&dollar; 25</h3>
+                        <p class="ppcardtextp">per month</p>
                       </li>
-                      <li>25GB Storage</li>
-                      <li>25 Emails</li>
-                      <li>25 Domains</li>
-                      <li>Endless Support</li>
-                      <li>
-                        <h3>&dollar; 25</h3>
-                        <p>per month</p>
-                      </li>
-                      <li><button>Sign Up</button></li>
+                      <li class="ppcardbtn"><span><button>Sign Up</button></span></li>
                     </ul>
                   </div>
                 </div>
-                <div class="coloumn">
-                  <div class="card">
+                <div class="ppcolumn">
+                  <div class="ppcard">
                     <ul>
+                      <li class="ppcardheading"><h3>Primium</h3></li>
+                      <li><span class="ppcardbtext">50GB</span> Storage</li>
+                      <li><span class="ppcardbtext">50</span> Emails</li>
+                      <li><span class="ppcardbtext">50</span> Domains</li>
+                      <li><span class="ppcardbtext">Endless</span> Support</li>
                       <li>
-                        <h3>Primium</h3>
+                        <h3 class="ppcardtexth3">&dollar; 50</h3>
+                        <p class="ppcardtextp">per month</p>
                       </li>
-                      <li>50GB Storage</li>
-                      <li>50 Emails</li>
-                      <li>50 Domains</li>
-                      <li>Endless Support</li>
-                      <li>
-                        <h3>&dollar; 50</h3>
-                        <p>per month</p>
-                      </li>
-                      <li><button>Sign Up</button></li>
+                      <li class="ppcardbtn"><span><button>Sign Up</button></span></li>
                     </ul>
                   </div>
                 </div>
