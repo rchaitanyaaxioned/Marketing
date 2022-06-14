@@ -162,7 +162,51 @@ header p {
 /*=================================
   main styling starts here
 =================================*/
+/*styling for slider start here*/
+.slider {
+  margin: 0 13px;
+  position: relative;
+}
 
+.slider figure {
+  position: relative;
+}
+
+.slider div > span {
+  position: absolute;
+  background-color: #FFF;
+  margin: 25px 5px;
+  padding: 10px 25px;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+
+.slider-bottom {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: #616161;
+}
+
+.slider-btn {
+  display:flex;
+  justify-content: space-between;
+  padding: 15px 10px;
+}
+
+.slider-btn div > button {
+  background-color: #FFF;
+  padding: 5px;
+}
+
+.slider-btn ul > li {
+  background-color: #FFF;
+  padding: 5px;
+}
+/*styling for slider end here*/
 
 /*=================================
   main styling ends here
