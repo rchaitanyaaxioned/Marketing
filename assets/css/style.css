@@ -206,6 +206,19 @@ header p {
   background-color: #FFF;
   padding: 5px;
 }
+
+.previous-btn > button::before {
+  content: "\f0a8";
+  font-family: "fontawesome";
+  text-indent: 0;
+}
+
+.next-btn > button::after {
+  content: "\f0a9";
+  font-family: "fontawesome";
+  text-indent: 0;
+}
+
 /*styling for slider end here*/
 /*styling for what we offer section start here*/
 .offer {
@@ -431,8 +444,84 @@ header p {
 /*=================================
   footer styling starts here
 =================================*/ 
+footer {
+  margin: 25px 50px;
+  background-color:#F1F1F1;
+  text-align: center;
+  padding: 55px 0;
+}
 
+footer h3 {
+  font-size: 23px;
+  text-transform: capitalize;
+}
 
+footer > div > a {
+  font-size: 16px;
+  padding: 10px;
+  margin: 40px;
+  background-color: #000;
+  color: #FFF;
+}
+
+footer > div > a::before {
+  content: "\f062";
+  font-family: "fontawesome";
+  text-indent: 0;
+}
+
+footer > div > a::first-letter {
+  text-transform: capitalize;
+}
+
+footer > div > ul > li a {
+  color: #000;
+}
+
+footer > div > p {
+  margin: 25px;
+}
+
+footer > div > p a{
+  color: #000;
+  text-decoration: underline;
+}
+
+.so-me-li-1 a::after {
+  content: "\f082";
+  font-family: "fontawesome";
+  text-indent: 0;
+}
+
+.so-me-li-2 a::after {
+  content: "\f16d";
+  font-family: "fontawesome";
+  text-indent: 0;
+}
+
+.so-me-li-3 a::after {
+  content: "\f2ab";
+  font-family: "fontawesome";
+  text-indent: 0;
+}
+
+.so-me-li-4 a::after {
+  content: "\f231";
+  font-family: "fontawesome";
+  text-indent: 0;
+}
+
+.so-me-li-5 a::after {
+  content: "\f099";
+  font-family: "fontawesome";
+  text-indent: 0;
+}
+
+.so-me-li-6 a::after {
+  content: "\f0e1";
+  font-family: "fontawesome";
+  text-indent: 0;
+}
  /*=================================
   footer styling ends here
 =================================*/ 
