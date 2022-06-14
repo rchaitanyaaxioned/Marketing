@@ -330,6 +330,58 @@ header p {
   padding: 20px;
 }
 /*styling for pricing plan end here*/
+/*styling for who we are start here*/
+.who-we-are {
+  margin: 85px 13px;
+}
+
+.who-we-are h2 {
+  text-align: center;
+  font-size: 28px;
+}
+
+.who-we-are h2 > span {
+  border-bottom: 5px solid #CCC;
+  padding: 10px;
+}
+
+.we-are-list {
+  overflow: hidden;
+  margin: 55px 0;
+  display: flex;
+}
+
+.we-are-list li {
+  margin: 10px;
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.4);
+}
+
+.we-are-list > li > h3 {
+  font-size: 25px;
+  margin: 15px;
+}
+
+.we-are-list > li > p {
+  font-size: 16px;
+  margin: 15px;
+  line-height: 25px;
+}
+
+.designation {
+  color: #CCC;
+}
+
+.we-are-list > li > div {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
+  margin: 15px;
+}
+
+.we-are-list > li > div a {
+  color: #000;
+}
+/*styling for who we are end here*/
 /*=================================
   main styling ends here
 =================================*/
