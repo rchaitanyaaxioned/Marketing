@@ -105,14 +105,56 @@ li {
 /*for wrapper*/
 .wrapper {
   max-width: 1350px;
-  width: 86%; 
+  width: 91.54%; 
   margin: 0 auto;
 }
 /*=================================
   Header styling starts here
 =================================*/
+/*nav bar styling start here*/
+.topnav {
+  list-style-type: none;
+  margin: 16px 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #F1F1F1;
+}
 
+.topnav > li {
+  width: 24.7%;
+  font-size: 20px;
+}
 
+.topnav > li a {
+  display: flex;
+  flex-direction:column;
+  color:#58442E;
+  text-align: center;
+  padding: 14px 12px;
+  text-decoration: none;
+}
+
+.topnav > li a:hover {
+  background-color: #000;
+  color: #FFF;
+}
+/*nav bar styling end here*/
+/*logo styling start here*/
+ h1 {
+  display: block;
+  margin: 60px 13px 0 13px;
+  font-size:45px;
+  text-transform:uppercase;
+  font-weight: bold;
+}
+/*logo styling end here*/
+/*heading styling start here*/
+header p {
+  display: block;
+  font-size: 18px;
+  margin: 30px 13px;
+}
+/*heading styling end here*/
 /*=================================
   Header styling ends here
 =================================*/  
