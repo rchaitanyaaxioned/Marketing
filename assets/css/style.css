@@ -207,7 +207,47 @@ header p {
   padding: 5px;
 }
 /*styling for slider end here*/
+/*styling for what we offer section start here*/
+.offer {
+  margin: 85px 13px;
+}
 
+.offer h2{
+  text-align: center;
+  font-size: 28px;
+}
+
+.offer h2 > span {
+  border-bottom: 5px solid #CCC;
+  padding: 10px;
+}
+
+.offer ul {
+  overflow: hidden;
+  margin: 55px 0;
+  display: flex;
+}
+
+.offer ul > li {
+  padding: 30px 20px;
+  height: auto;
+}
+
+.offer ul h3 {
+  font-size: 25px;
+}
+
+.offer ul p {
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.offer-col-1 {background-color: #F1F1F1;}
+.offer-col-2 {background-color: #BBBBBB;}
+.offer-col-3 {background-color: #616161; color: #FFF;}
+.offer-col-4 {background-color: #000000; color: #FFF;}
+/*styling for what we offer section end here*/
 /*=================================
   main styling ends here
 =================================*/
