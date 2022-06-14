@@ -112,32 +112,6 @@ li {
   Header styling starts here
 =================================*/
 
-.topnav > ul {
-  background: #F1F1F1;
-  list-style-type: none;
-  padding: 0;
-  margin: 15px 0;
-  overflow: hidden;
-}
-
-.topnav > ul > li {
-  float: left;
-  width: 25%;
-}
-
-.topnav > ul > li a{
-  display: block;
-  text-align: center;
-  color: #000;
-  text-decoration: none;
-  font-size:25px;
-  padding: 14px 16px;
-}
-
-.topnav > ul > li a:hover{
-    background-color: #111;
-    color: #FFF;
-}
 
 /*=================================
   Header styling ends here
@@ -146,117 +120,6 @@ li {
 /*=================================
   main styling starts here
 =================================*/
-
-/*topsection styling starts here*/
-.topsection h2 {
-  font-size: 50px;
-  text-transform: uppercase;
-  margin: 30px 0;
-}
-
-p {
-  font-size: 20px;
-  margin: 30px 0;
-}
-/*topsection styling end here*/
-
-/*what we offer styling start here*/
-.whatweoffer h3 {
-  font-size: 35px;
-  text-align: center;
-}
-
-#whatweofferid {
-  padding: 20px 0;
-  border-bottom: 8px solid #ccc;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-.wworow {
-  margin: 70px 0;
-}
-
-.wwocolumn {
-  overflow: hidden;
-  float: left;
-  width: 25%;
-  padding: 40px 30px;
-  height: 272px;
-  margin: 30px 0px;
-}
-
-.wwocolumn h3,p {
-  float: left;
-}
-
-.wworow:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-#wwocol1 {background-color: #F1F1F1 ;}
-#wwocol2 {background-color: #BBB;}
-#wwocol3 {background-color: #616161; color: #FFF;}
-#wwocol4 {background-color: #000; color: #FFF;}
-/*what we offer styling end here*/
-
-/*pricing plans styling start here*/
-* {
-  box-sizing: border-box;
-}
-
-.pricingplansection > #pptitleh3 {
-  text-align: center;
-  font-size: 35px;
-  padding: 20px 0;
-}
-
-#pptitlehp {
-  text-align: center;
-  font-size: 20px;
-  padding: 20px 0;
-  background-color: green;
-}
-
-.ppcolumn {
-  float: left;
-  width: 33%;
-  padding: 0 10px;
-}
-
-.pprow {margin: 70px 0;}
-
-.pprow:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.ppcard {
-  float: left;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
-}
-
-.ppcard > .ppbtn {
-  background-color: #F1F1F1;
-}
-
-@media screen and (max-width: 600px) {
-  .ppcolumn {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
-}
-/*pricing plans styling end here*/
-
 
 
 /*=================================
@@ -268,11 +131,6 @@ p {
 =================================*/ 
 
 
-
-
-
-
-
  /*=================================
   footer styling ends here
 =================================*/ 
@@ -280,7 +138,4 @@ p {
 /*media query starts*/
 /*media query for 995px starts here*/
 @media only screen and (max-width: 995px) {
-
-
-
 }  
